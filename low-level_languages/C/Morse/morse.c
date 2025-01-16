@@ -62,11 +62,11 @@ void decoderToText(const char *input)
                 bufferIndex = 0; // Reset buffer for the next sequence
             }
             if (input[i] == ' ' && input[i + 1] == ' ') {
-                printf(" "); // Add a space for word separation
+                printf(" "); // Adds a space for word separation
                 i++; // Skip the second space
             }
         } else {
-            buffer[bufferIndex++] = input[i]; // Add character to buffer
+            buffer[bufferIndex++] = input[i]; // Adds character to buffer
         }
     }
     printf("\n");
@@ -76,7 +76,7 @@ void decoderToText(const char *input)
 int main()
 {
     int action;
-    char input[300];
+    char input[200];
 
     do
     {
