@@ -57,3 +57,14 @@ To Check if number is even;
 
 To Check if number is odd;
 (x % 2 != 0)
+
+short-hand way to if-else statement
+example:
+/* if (x % 2 == 0) {
+    printf("%d is Even \n", x);
+} else {
+    printf("%d is Odd \n", x);
+}
+*/
+The above code can be written as;
+condition ? expression_if_true : expression_if_false;
