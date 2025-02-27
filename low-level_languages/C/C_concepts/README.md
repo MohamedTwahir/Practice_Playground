@@ -51,3 +51,9 @@ while(expression)
 {
     statement;
 }
+
+To Check if number is even;
+(x % 2 == 0)
+
+To Check if number is odd;
+(x % 2 != 0)
