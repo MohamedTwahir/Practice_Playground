@@ -9,3 +9,11 @@ Bit wise operators      These operators are used to perform bit operations on gi
 Conditional (ternary) operators     Conditional operators return one value if condition is true and returns another value is condition is false.
 Increment/decrement operators       These operators are used to either increase or decrease the value of the variable by one.
 Special operators                   &, *, sizeof( ) and ternary operators.
+
+ # Keywords and identifiers
+ identifiers fancy word for "name".
+ "The rules for  construction of identifiers :  
+ * 52 upper and lower case alphabetic characters, 
+ * the 10 digits  
+ * the underscore ‘_’ 
+ * identifiers must start with an alphabetic character.
