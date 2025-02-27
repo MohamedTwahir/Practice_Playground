@@ -17,3 +17,37 @@ Special operators                   &, *, sizeof( ) and ternary operators.
  * the 10 digits  
  * the underscore ‘_’ 
  * identifiers must start with an alphabetic character.
+Declaration and definition (reference from the C book "https://publications.gbdirect.co.uk//c_book/chapter2/variable_declaration.html")
+ /*
+* A function is only defined if its body is given
+* so this is a declaration but not a definition
+*/
+
+int func_dec(void);
+
+/*
+* Because this function has a body, it is also
+* a definition.
+* Any variables declared inside will be definitions,
+* unless the keyword 'extern' is used.
+* Don't use 'extern' until you understand it!
+*/
+
+int def_func(void){
+     float f_var;            /* a definition */
+     int counter;            /* another definition */
+     int rand_num(void);     /* declare (but not define) another function */
+
+     return(0);
+}
+
+
+WHILE LOOP
+while loop often called the entry verified loop.
+do while loop called the exit verified loop.
+For loop is called an automatic loop
+Syntax:
+while(expression)
+{
+    statement;
+}
