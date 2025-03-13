@@ -70,5 +70,19 @@ The above code can be written as;
 condition ? expression_if_true : expression_if_false;
 
 
-/* Header Files in C */
+/* Functions  in C */
+
+They are block of organized reusable code that perform single relatable action.
+Functions form a code division each performing specific task.
+Function declaration - gives function name, return type and parameters.
+return_type function_name(parameter list); // included in header file
+
+Function definition - provides actual body of fucntion.
+
+This approach towards software development is called modular programming.
+
+/* Parts of a function in C */
+return_type function_name(parameter list){
+    body of the function
+}
 
