@@ -3,14 +3,14 @@ In essence this concept aims to promote writing more cleaner python code that ca
 A correct usage is as a replacement of if/else statements that can sometimes hide logic in the conditions themselves make them hard to read and maintain incases of a large and complex case.
 ## Basic Syntax for match case:
 match expression:
-    case pattern1:
-        code_block_1
-    case pattern2:
-        code_block_2
-    ...
-    case pattern_n:
-        code_block_n
-    # Optional: _ (wildcard) for default case
+    * case pattern1:
+        * code_block_1
+    * case pattern2:
+        * code_block_2
+    * ...
+    * case pattern_n:
+        * code_block_n
+    * # Optional: _ (wildcard) for default case
 
 * expression: This is the value you want to match against different patterns.
 * case pattern: Each case statement defines a pattern to match against the expression.
