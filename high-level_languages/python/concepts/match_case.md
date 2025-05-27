@@ -10,7 +10,7 @@ match expression:
 * ...
 * case pattern_n:
 * code_block_n
-* # Optional: _ (wildcard) for default case
+*  Optional: _ (wildcard) for default case
 
 * expression: This is the value you want to match against different patterns.
 * case pattern: Each case statement defines a pattern to match against the expression.
